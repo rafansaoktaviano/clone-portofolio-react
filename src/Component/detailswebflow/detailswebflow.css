@@ -1,0 +1,23 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: -30px;
+}
+.wrap .smile {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    background-color: #c4c4c4c4;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap .text-det {
+    font-size: 22px !important;
+}
+.wrap .smile i {
+    font-size: 32px;
+}

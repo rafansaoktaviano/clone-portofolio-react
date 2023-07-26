@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  margin: 50px 100px;
+  display: flex;
+}
+.container .cont-left {
+  width: 50%;
+  padding: 100px 50px;
+  border: 3px solid black;
+}
+
+.container .cont-left h1 {
+  margin-top: 40px;
+  font-size: 60px;
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+
+.container .cont-right {
+  width: 50%;
+}
+.container .cont-right .image {
+  background-image: url(./../../Assets/photo1.png);
+  width: 100%;
+  height: 100%;
+  border: 3px solid black;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
