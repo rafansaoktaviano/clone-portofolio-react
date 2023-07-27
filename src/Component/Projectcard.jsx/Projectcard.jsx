@@ -1,6 +1,6 @@
 import React from 'react'
 import "./projectcard.css"
-import Button from '../Button/Button'
+import Button3 from "./../button3/Button3"
 
 export default function Projectcard() {
 
@@ -10,7 +10,7 @@ export default function Projectcard() {
         <div className='logo-container'></div>
         <h1>Learn Webflow by Building designs from scratch.</h1>
         {/* <button>Learn more</button> */}
-        <Button button1="Learn Webflow"/>
+        <Button3 tombol="Learn Webflow"/>
       </div>
       <div className="cont-right">
         <div className="image"></div>

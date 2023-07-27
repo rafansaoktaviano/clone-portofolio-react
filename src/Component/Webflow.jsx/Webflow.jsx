@@ -1,7 +1,6 @@
 import React from "react";
 import "./webflow.css";
 import Detailswebflow from "../detailswebflow/Detailswebflow";
-import Button from "../Button/Button";
 import Button3 from "./../button3/Button3";
 export default function Webflow(props) {
   return (
@@ -12,8 +11,8 @@ export default function Webflow(props) {
         <Detailswebflow detail="Blog, Categories & Project CMS Collections" />
         <Detailswebflow detail="Fun interactions & elements" />
         <div className="btn-test">
-          <Button button1="Clone" />
-          <Button3 tombol="Live Preview" />
+          <Button3 tombol="Clone" />
+          <Button3 tombol="Live Preview" background="btn-5" />
         </div>
       </div>
       <div className="cont-right">
